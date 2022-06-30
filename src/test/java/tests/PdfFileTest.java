@@ -17,6 +17,6 @@ public class PdfFileTest {
         String expectedData = "123456";
 
         PDF pdf = new PDF(new File(pdfFilePath));
-        assertThat(pdf, containsText(expectedData));
+        assertThat(pdf, PDF.containsText(expectedData));
     }
 }
