@@ -1,8 +1,5 @@
 package tests;
 
-import com.codeborne.pdftest.PDF;
-import com.codeborne.xlstest.XLS;
-import org.apache.poi.hwpf.extractor.WordExtractor;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
